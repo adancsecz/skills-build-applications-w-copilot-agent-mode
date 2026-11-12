@@ -1,6 +1,7 @@
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
+
 export default defineConfig({
   plugins: [react()],
   // The browser only talks to the Vite origin; Vite forwards /api to the private Express port.
