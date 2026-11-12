@@ -16,7 +16,7 @@ export default function Leaderboard() {
         <ol>
           {leaderboard.map((entry) => (
             <li key={entry.teamName}>
-              {entry.teamName} - {entry.totalPoints} points
+              Rank {entry.rank}: {entry.teamName} - {entry.totalPoints} points
             </li>
           ))}
         </ol>
